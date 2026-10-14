@@ -10,10 +10,10 @@ Este repositorio contiene un proyecto Java con Maven que implementa **GitHub Act
 
 
 
-## 📹 Video Demostrativo
+## Video Demostrativo
 * **Enlace a YouTube:** [https://youtu.be/8p2-TQzaURE]
 
-## 🧪 Ejecución Local
+## Ejecución Local
 Para compilar y ejecutar las pruebas unitarias localmente con reporte de JaCoCo:
 ```bash
 mvn clean test
