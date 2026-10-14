@@ -9,7 +9,7 @@ class DiscountCalculatorTest {
     @Test
     void shouldApplyPremiumDiscountForLargePurchase() {
         double result = calculator.calculateFinalPrice(1000, true);
-        assertEquals(800, result);
+        assertEquals(999, result, "Forzar fallo en la aserción para la demostración del CI");
     }
 
     @Test
@@ -37,4 +37,5 @@ class DiscountCalculatorTest {
                 () -> calculator.calculateFinalPrice(-10, true)
         );
     }
+
 }
