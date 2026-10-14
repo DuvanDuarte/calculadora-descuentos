@@ -37,4 +37,5 @@ class DiscountCalculatorTest {
                 () -> calculator.calculateFinalPrice(-10, true)
         );
     }
+
 }
